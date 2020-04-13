@@ -1,8 +1,14 @@
 import React from 'react';
 
+// IMPORTA O CSS GLOBAL
+import './global.css'
+
+// IMPORTAR AS ROTAS (COMPONENTIZADO)
+import Routes from './router';
+
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <Routes/>
   );
 }
 
